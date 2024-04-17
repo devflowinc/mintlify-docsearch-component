@@ -178,7 +178,7 @@ export const SearchWithGroups = () => {
           <div className="flex items-center justify-start w-full gap-x-3">
             <button
               type="button"
-              className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-green-300 hover:bg-green-50"
+              className="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-green-300 hover:bg-green-50 outline-0"
               onClick={() => {
                 setQuery((prev) => {
                   while (true) {
